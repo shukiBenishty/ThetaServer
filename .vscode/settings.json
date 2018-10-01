@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0740d30e-c426-4cab-8e4a-fa4185845bfd/resourceGroups/TheTheta/providers/Microsoft.Web/sites/thetaserver",
+    "appService.deploySubpath": ""
+}
