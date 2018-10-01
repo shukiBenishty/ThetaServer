@@ -1,7 +1,7 @@
 {
   "name": "ThetaServer",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "engines": {
     "node": "8.9.3",
