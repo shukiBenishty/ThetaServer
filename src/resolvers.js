@@ -7,13 +7,16 @@ export let resolvers = {
     employees: (_) => {
 
       const db = new Database();
-      db.getEmployees();
-      return [{}];
-    }
-  },
-  Employee: {
-    name: (_) => {
-      return 'Oleg Kleiman';
+      return db.getEmployees();
+    },
+    schedules: (_, {groupSymbol}) => {
+      const db = new Database();
+      return db.getSchedules(groupSymbol);
     }
   }
+  // Employee: {
+  //   name: (_) => {
+  //     return 'Oleg Kleiman';
+  //   }
+  // }
 }
