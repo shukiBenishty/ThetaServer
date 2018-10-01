@@ -3,14 +3,6 @@ import MariaSQL from 'mariasql-promise'
 //import mysql from 'mysql';
 import mysql from 'promise-mysql';
 
-var jdbcConfig = {
-  url: 'jdbc:mysql://sql125.main-hosting.eu/u143806214_elamy',
-  user : 'u143806214_elamy',
-  password: 'Day1!2111',
-  minpoolsize: 2,
-  maxpoolsize: 3
-};
-
 const config = {
   host: "sql125.main-hosting.eu",
   user: "u143806214_elamy",
